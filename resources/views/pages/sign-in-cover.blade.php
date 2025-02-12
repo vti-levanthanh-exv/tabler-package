@@ -49,7 +49,7 @@
                         <label class="form-label">
                             Password
                             <span class="form-label-description">
-                                <a href="./forgot-password.html">I forgot password</a>
+                                <a href="{{ route('forgot-password') }}">I forgot password</a>
                             </span>
                         </label>
                         <div class="input-group input-group-flat">
@@ -79,14 +79,14 @@
                     </div>
                 </form>
                 <div class="text-center text-secondary mt-3">
-                    Don't have account yet? <a href="./sign-up.html" tabindex="-1">Sign up</a>
+                    Don't have account yet? <a href="{{ route('sign-up') }}" tabindex="-1">Sign up</a>
                 </div>
             </div>
         </div>
         <div class="col-12 col-lg-6 col-xl-8 d-none d-lg-block">
             <!-- Photo -->
             <div class="bg-cover h-100 min-vh-100"
-                style="background-image: url(./static/photos/finances-us-dollars-and-bitcoins-currency-money-2.jpg)">
+                style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
             </div>
         </div>
     </div>

@@ -24,7 +24,7 @@
                                 href="./static/photos/group-of-people-brainstorming-and-taking-notes-2.jpg">
                                 <!-- Photo -->
                                 <div class="img-responsive img-responsive-3x1 rounded-3 border"
-                                    style="background-image: url(./static/photos/group-of-people-brainstorming-and-taking-notes-2.jpg)">
+                                    style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                 </div>
                             </a>
                         </div>
@@ -33,7 +33,7 @@
                                 href="./static/photos/blue-sofa-with-pillows-in-a-designer-living-room-interior.jpg">
                                 <!-- Photo -->
                                 <div class="img-responsive img-responsive-1x1 rounded-3 border"
-                                    style="background-image: url(./static/photos/blue-sofa-with-pillows-in-a-designer-living-room-interior.jpg)">
+                                    style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                 </div>
                             </a>
                         </div>
@@ -44,7 +44,7 @@
                                         href="./static/photos/home-office-desk-with-macbook-iphone-calendar-watch-and-organizer.jpg">
                                         <!-- Photo -->
                                         <div class="img-responsive img-responsive-1x1 rounded-3 border"
-                                            style="background-image: url(./static/photos/home-office-desk-with-macbook-iphone-calendar-watch-and-organizer.jpg)">
+                                            style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                         </div>
                                     </a>
                                 </div>
@@ -52,7 +52,7 @@
                                     <a data-fslightbox="gallery" href="./static/photos/young-woman-working-in-a-cafe.jpg">
                                         <!-- Photo -->
                                         <div class="img-responsive img-responsive-1x1 rounded-3 border"
-                                            style="background-image: url(./static/photos/young-woman-working-in-a-cafe.jpg)">
+                                            style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                         </div>
                                     </a>
                                 </div>
@@ -61,7 +61,7 @@
                                         href="./static/photos/everything-you-need-to-work-from-your-bed.jpg">
                                         <!-- Photo -->
                                         <div class="img-responsive img-responsive-1x1 rounded-3 border"
-                                            style="background-image: url(./static/photos/everything-you-need-to-work-from-your-bed.jpg)">
+                                            style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                         </div>
                                     </a>
                                 </div>
@@ -70,7 +70,7 @@
                                         href="./static/photos/young-entrepreneur-working-from-a-modern-cafe.jpg">
                                         <!-- Photo -->
                                         <div class="img-responsive img-responsive-1x1 rounded-3 border"
-                                            style="background-image: url(./static/photos/young-entrepreneur-working-from-a-modern-cafe.jpg)">
+                                            style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                         </div>
                                     </a>
                                 </div>
@@ -81,7 +81,7 @@
                                 href="./static/photos/finances-us-dollars-and-bitcoins-currency-money-3.jpg">
                                 <!-- Photo -->
                                 <div class="img-responsive img-responsive-4x1 rounded-3 border"
-                                    style="background-image: url(./static/photos/finances-us-dollars-and-bitcoins-currency-money-3.jpg)">
+                                    style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                 </div>
                             </a>
                         </div>
@@ -96,7 +96,7 @@
                                         href="./static/photos/elegant-home-office-with-golden-accessories.jpg">
                                         <!-- Photo -->
                                         <div class="img-responsive img-responsive-1x1 rounded-3 border"
-                                            style="background-image: url(./static/photos/elegant-home-office-with-golden-accessories.jpg)">
+                                            style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                         </div>
                                     </a>
                                 </div>
@@ -105,7 +105,7 @@
                                         href="./static/photos/stylish-workplace-with-computer-at-home.jpg">
                                         <!-- Photo -->
                                         <div class="img-responsive img-responsive-1x1 rounded-3 border"
-                                            style="background-image: url(./static/photos/stylish-workplace-with-computer-at-home.jpg)">
+                                            style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                         </div>
                                     </a>
                                 </div>
@@ -114,7 +114,7 @@
                                         href="./static/photos/group-of-people-sightseeing-in-the-city.jpg">
                                         <!-- Photo -->
                                         <div class="img-responsive img-responsive-1x1 rounded-3 border"
-                                            style="background-image: url(./static/photos/group-of-people-sightseeing-in-the-city.jpg)">
+                                            style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                         </div>
                                     </a>
                                 </div>
@@ -123,7 +123,7 @@
                                         href="./static/photos/color-palette-guide-sample-colors-catalog-.jpg">
                                         <!-- Photo -->
                                         <div class="img-responsive img-responsive-1x1 rounded-3 border"
-                                            style="background-image: url(./static/photos/color-palette-guide-sample-colors-catalog-.jpg)">
+                                            style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                         </div>
                                     </a>
                                 </div>
@@ -134,7 +134,7 @@
                                 href="./static/photos/beautiful-blonde-woman-relaxing-with-a-can-of-coke-on-a-tree-stump-by-the-beach.jpg">
                                 <!-- Photo -->
                                 <div class="img-responsive img-responsive-1x1 rounded-3 border"
-                                    style="background-image: url(./static/photos/beautiful-blonde-woman-relaxing-with-a-can-of-coke-on-a-tree-stump-by-the-beach.jpg)">
+                                    style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                 </div>
                             </a>
                         </div>
@@ -142,7 +142,7 @@
                             <a data-fslightbox="gallery" href="./static/photos/contemporary-black-and-white-home-decor.jpg">
                                 <!-- Photo -->
                                 <div class="img-responsive img-responsive-4x1 rounded-3 border"
-                                    style="background-image: url(./static/photos/contemporary-black-and-white-home-decor.jpg)">
+                                    style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                 </div>
                             </a>
                         </div>
@@ -150,7 +150,7 @@
                             <a data-fslightbox="gallery" href="./static/photos/pink-desk-in-the-home-office.jpg">
                                 <!-- Photo -->
                                 <div class="img-responsive img-responsive-3x1 rounded-3 border"
-                                    style="background-image: url(./static/photos/pink-desk-in-the-home-office.jpg)">
+                                    style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
                                 </div>
                             </a>
                         </div>

@@ -39,7 +39,7 @@
                                     <div class="row align-items-center flex-fill">
                                         <div class="col-auto">
                                             <span class="avatar avatar-1"
-                                                style="background-image: url(./static/avatars/000m.jpg)"></span>
+                                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                         </div>
                                         <div class="col text-body">
                                             <div>Paweł Kuna</div>
@@ -66,7 +66,7 @@
                                     <div class="row align-items-center flex-fill">
                                         <div class="col-auto">
                                             <span class="avatar avatar-1"
-                                                style="background-image: url(./static/avatars/002m.jpg)"></span>
+                                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                         </div>
                                         <div class="col text-body">
                                             <div>Mallory Hulme</div>
@@ -81,7 +81,7 @@
                                     <div class="row align-items-center flex-fill">
                                         <div class="col-auto">
                                             <span class="avatar avatar-1"
-                                                style="background-image: url(./static/avatars/003m.jpg)"></span>
+                                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                         </div>
                                         <div class="col text-body">
                                             <div>Dunn Slane</div>
@@ -95,7 +95,7 @@
                                     <div class="row align-items-center flex-fill">
                                         <div class="col-auto">
                                             <span class="avatar avatar-1"
-                                                style="background-image: url(./static/avatars/000f.jpg)"></span>
+                                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                         </div>
                                         <div class="col text-body">
                                             <div>Emmy Levet</div>
@@ -110,7 +110,7 @@
                                     <div class="row align-items-center flex-fill">
                                         <div class="col-auto">
                                             <span class="avatar avatar-1"
-                                                style="background-image: url(./static/avatars/001f.jpg)"></span>
+                                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                         </div>
                                         <div class="col text-body">
                                             <div>Maryjo Lebarree</div>
@@ -140,7 +140,7 @@
                                     <div class="row align-items-center flex-fill">
                                         <div class="col-auto">
                                             <span class="avatar avatar-1"
-                                                style="background-image: url(./static/avatars/002f.jpg)"></span>
+                                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                         </div>
                                         <div class="col text-body">
                                             <div>Kellie Skingley</div>
@@ -157,7 +157,7 @@
                                     <div class="row align-items-center flex-fill">
                                         <div class="col-auto">
                                             <span class="avatar avatar-1"
-                                                style="background-image: url(./static/avatars/003f.jpg)"></span>
+                                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                         </div>
                                         <div class="col text-body">
                                             <div>Christabel Charlwood</div>
@@ -209,7 +209,7 @@
                                             </div>
                                             <div class="col-auto">
                                                 <span class="avatar avatar-1"
-                                                    style="background-image: url(./static/avatars/000m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                         </div>
                                     </div>
@@ -217,7 +217,7 @@
                                         <div class="row align-items-end">
                                             <div class="col-auto">
                                                 <span class="avatar avatar-1"
-                                                    style="background-image: url(./static/avatars/002m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                             <div class="col col-lg-6">
                                                 <div class="chat-bubble">
@@ -239,7 +239,7 @@
                                         <div class="row align-items-end">
                                             <div class="col-auto">
                                                 <span class="avatar avatar-1"
-                                                    style="background-image: url(./static/avatars/003m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                             <div class="col col-lg-6">
                                                 <div class="chat-bubble">
@@ -261,7 +261,7 @@
                                         <div class="row align-items-end">
                                             <div class="col-auto">
                                                 <span class="avatar avatar-1"
-                                                    style="background-image: url(./static/avatars/002m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                             <div class="col col-lg-6">
                                                 <div class="chat-bubble">
@@ -300,7 +300,7 @@
                                             </div>
                                             <div class="col-auto">
                                                 <span class="avatar avatar-1"
-                                                    style="background-image: url(./static/avatars/000m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                         </div>
                                     </div>
@@ -308,7 +308,7 @@
                                         <div class="row align-items-end">
                                             <div class="col-auto">
                                                 <span class="avatar avatar-1"
-                                                    style="background-image: url(./static/avatars/000f.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                             <div class="col col-lg-6">
                                                 <div class="chat-bubble">
@@ -331,7 +331,7 @@
                                         <div class="row align-items-end">
                                             <div class="col-auto">
                                                 <span class="avatar avatar-1"
-                                                    style="background-image: url(./static/avatars/003m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                             <div class="col col-lg-6">
                                                 <div class="chat-bubble">
@@ -374,7 +374,7 @@
                                             </div>
                                             <div class="col-auto">
                                                 <span class="avatar avatar-1"
-                                                    style="background-image: url(./static/avatars/000m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                         </div>
                                     </div>
@@ -382,7 +382,7 @@
                                         <div class="row align-items-end">
                                             <div class="col-auto">
                                                 <span class="avatar avatar-1"
-                                                    style="background-image: url(./static/avatars/002m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                             <div class="col col-lg-6">
                                                 <div class="chat-bubble">
@@ -421,7 +421,7 @@
                                             </div>
                                             <div class="col-auto">
                                                 <span class="avatar avatar-1"
-                                                    style="background-image: url(./static/avatars/000m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                         </div>
                                     </div>
@@ -429,7 +429,7 @@
                                         <div class="row align-items-end">
                                             <div class="col-auto">
                                                 <span class="avatar avatar-1"
-                                                    style="background-image: url(./static/avatars/000f.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                             <div class="col col-lg-6">
                                                 <div class="chat-bubble">
@@ -467,7 +467,7 @@
                                             </div>
                                             <div class="col-auto">
                                                 <span class="avatar avatar-1"
-                                                    style="background-image: url(./static/avatars/000m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                         </div>
                                     </div>
@@ -475,7 +475,7 @@
                                         <div class="row align-items-end">
                                             <div class="col-auto">
                                                 <span class="avatar avatar-1"
-                                                    style="background-image: url(./static/avatars/000f.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                             <div class="col-auto">
                                                 <div class="chat-bubble">

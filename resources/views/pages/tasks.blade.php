@@ -57,9 +57,9 @@
                                                     <div class="avatar-list avatar-list-stacked">
                                                         <span class="avatar avatar-xs rounded">EP</span>
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/002f.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/003f.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                         <span class="avatar avatar-xs rounded">HS</span>
                                                     </div>
                                                 </div>
@@ -136,7 +136,7 @@
                                                 <div class="col">
                                                     <div class="avatar-list avatar-list-stacked">
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/000f.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                     </div>
                                                 </div>
                                                 <div class="col-auto">
@@ -419,9 +419,9 @@
                                                 <div class="col">
                                                     <div class="avatar-list avatar-list-stacked">
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/002f.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/003f.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                     </div>
                                                 </div>
                                                 <div class="col-auto text-secondary">
@@ -577,7 +577,7 @@
                                                     <div class="avatar-list avatar-list-stacked">
                                                         <span class="avatar avatar-xs rounded">HS</span>
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/006m.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                     </div>
                                                 </div>
                                                 <div class="col-auto text-secondary">
@@ -655,7 +655,7 @@
                                                 <div class="col">
                                                     <div class="avatar-list avatar-list-stacked">
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/004f.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                     </div>
                                                 </div>
                                                 <div class="col-auto text-secondary">
@@ -729,9 +729,9 @@
                                                 <div class="col">
                                                     <div class="avatar-list avatar-list-stacked">
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/002m.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/003m.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                     </div>
                                                 </div>
                                                 <div class="col-auto text-secondary">
@@ -885,7 +885,7 @@
                                                 <div class="col">
                                                     <div class="avatar-list avatar-list-stacked">
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/002f.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                     </div>
                                                 </div>
                                                 <div class="col-auto text-secondary">
@@ -946,14 +946,14 @@
                                                 <div class="col">
                                                     <div class="avatar-list avatar-list-stacked">
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/000m.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                         <span class="avatar avatar-xs rounded">JL</span>
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/002m.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/003m.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/000f.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                     </div>
                                                 </div>
                                                 <div class="col-auto text-secondary">
@@ -1060,9 +1060,9 @@
                                                 <div class="col">
                                                     <div class="avatar-list avatar-list-stacked">
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/006m.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                         <span class="avatar avatar-xs rounded"
-                                                            style="background-image: url(./static/avatars/004f.jpg)"></span>
+                                                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                     </div>
                                                 </div>
                                                 <div class="col-auto text-secondary">

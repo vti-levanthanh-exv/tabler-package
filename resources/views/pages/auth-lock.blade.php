@@ -44,7 +44,7 @@
                     </div>
                     <div class="mb-4">
                         <span class="avatar avatar-xl mb-3"
-                            style="background-image: url(./static/avatars/000m.jpg)"></span>
+                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                         <h3>Paweł Kuna</h3>
                     </div>
                     <div class="mb-4">

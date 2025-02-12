@@ -431,7 +431,7 @@
                             <div class="datagrid-content">
                                 <div class="d-flex align-items-center">
                                     <span class="avatar avatar-xs me-2 rounded"
-                                        style="background-image: url(./static/avatars/000m.jpg)"></span>
+                                        style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                     Paweł Kuna
                                 </div>
                             </div>
@@ -453,14 +453,14 @@
                             <div class="datagrid-content">
                                 <div class="avatar-list avatar-list-stacked">
                                     <span class="avatar avatar-xs rounded"
-                                        style="background-image: url(./static/avatars/000m.jpg)"></span>
+                                        style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                     <span class="avatar avatar-xs rounded">JL</span>
                                     <span class="avatar avatar-xs rounded"
-                                        style="background-image: url(./static/avatars/002m.jpg)"></span>
+                                        style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                     <span class="avatar avatar-xs rounded"
-                                        style="background-image: url(./static/avatars/003m.jpg)"></span>
+                                        style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                     <span class="avatar avatar-xs rounded"
-                                        style="background-image: url(./static/avatars/000f.jpg)"></span>
+                                        style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                     <span class="avatar avatar-xs rounded">+3</span>
                                 </div>
                             </div>

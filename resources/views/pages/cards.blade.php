@@ -277,7 +277,7 @@
 					<div class="card">
 						<!-- Photo -->
 						<div class="img-responsive img-responsive-21x9 card-img-top"
-							style="background-image: url(./static/photos/home-office-desk-with-macbook-iphone-calendar-watch-and-organizer.jpg)">
+							style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
 						</div>
 						<div class="card-body">
 							<h3 class="card-title">Card with top image</h3>
@@ -297,7 +297,7 @@
 						</div>
 						<!-- Photo -->
 						<div class="img-responsive img-responsive-21x9 card-img-bottom"
-							style="background-image: url(./static/photos/finances-us-dollars-and-bitcoins-currency-money-2.jpg)">
+							style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})">
 						</div>
 					</div>
 				</div>
@@ -393,14 +393,14 @@
 								<div class="col-auto ms-auto">
 									<div class="avatar-list avatar-list-stacked">
 										<span class="avatar avatar-2 rounded"
-											style="background-image: url(./static/avatars/000m.jpg)"></span>
+											style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
 										<span class="avatar avatar-2 rounded">JL</span>
 										<span class="avatar avatar-2 rounded"
-											style="background-image: url(./static/avatars/002m.jpg)"></span>
+											style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
 										<span class="avatar avatar-2 rounded"
-											style="background-image: url(./static/avatars/003m.jpg)"></span>
+											style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
 										<span class="avatar avatar-2 rounded"
-											style="background-image: url(./static/avatars/000f.jpg)"></span>
+											style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
 										<span class="avatar avatar-2 rounded">+3</span>
 									</div>
 								</div>
@@ -974,7 +974,7 @@
 								<div class="row align-items-center">
 									<div class="col-auto">
 										<span class="avatar avatar-1"
-											style="background-image: url(./static/avatars/000m.jpg)"></span>
+											style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
 									</div>
 									<div class="col">
 										<div class="card-title">Paweł Kuna</div>
@@ -1072,7 +1072,7 @@
 								<div class="row align-items-center">
 									<div class="col-auto">
 										<span class="avatar avatar-1"
-											style="background-image: url(./static/avatars/003m.jpg)"></span>
+											style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
 									</div>
 									<div class="col">
 										<div class="card-title">Dunn Slane</div>

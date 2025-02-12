@@ -21,7 +21,7 @@
 					<div class="row align-items-center">
 						<div class="col">
 							<strong>Do you like cookies?</strong> 🍪 We use cookies to ensure you get the
-							best experience on our website. <a href="./terms-of-service.html"
+							best experience on our website. <a href="{{ route('terms-of-service') }}"
 								target="_blank">Learn more</a>
 						</div>
 						<div class="col-auto">

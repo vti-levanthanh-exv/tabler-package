@@ -961,7 +961,7 @@
                                                             <div
                                                                 class="form-selectgroup-label-content d-flex align-items-center">
                                                                 <span class="avatar avatar-2 me-3"
-                                                                    style="background-image: url(./static/avatars/000m.jpg)"></span>
+                                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                                 <div>
                                                                     <div class="font-weight-medium">Paweł Kuna
                                                                     </div>
@@ -1000,7 +1000,7 @@
                                                             <div
                                                                 class="form-selectgroup-label-content d-flex align-items-center">
                                                                 <span class="avatar avatar-2 me-3"
-                                                                    style="background-image: url(./static/avatars/002m.jpg)"></span>
+                                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                                 <div>
                                                                     <div class="font-weight-medium">Mallory
                                                                         Hulme</div>
@@ -1020,7 +1020,7 @@
                                                             <div
                                                                 class="form-selectgroup-label-content d-flex align-items-center">
                                                                 <span class="avatar avatar-2 me-3"
-                                                                    style="background-image: url(./static/avatars/003m.jpg)"></span>
+                                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                                 <div>
                                                                     <div class="font-weight-medium">Dunn Slane
                                                                     </div>
@@ -1040,7 +1040,7 @@
                                                             <div
                                                                 class="form-selectgroup-label-content d-flex align-items-center">
                                                                 <span class="avatar avatar-2 me-3"
-                                                                    style="background-image: url(./static/avatars/000f.jpg)"></span>
+                                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                                 <div>
                                                                     <div class="font-weight-medium">Emmy Levet
                                                                     </div>
@@ -2030,64 +2030,64 @@
                                                 <select type="text" class="form-select" id="select-people"
                                                     value="">
                                                     <option value="1"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/000m.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Paweł Kuna</option>
                                                     <option value="2"
                                                         data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34;&gt;JL&lt;/span&gt;">
                                                         Jeffie Lewzey</option>
                                                     <option value="3"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/002m.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Mallory Hulme</option>
                                                     <option value="4"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/003m.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Dunn Slane</option>
                                                     <option value="5"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/000f.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Emmy Levet</option>
                                                     <option value="6"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/001f.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Maryjo Lebarree</option>
                                                     <option value="7"
                                                         data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34;&gt;EP&lt;/span&gt;">
                                                         Egan Poetz</option>
                                                     <option value="8"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/002f.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Kellie Skingley</option>
                                                     <option value="9"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/003f.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Christabel Charlwood</option>
                                                     <option value="10"
                                                         data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34;&gt;HS&lt;/span&gt;">
                                                         Haskel Shelper</option>
                                                     <option value="11"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/006m.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Lorry Mion</option>
                                                     <option value="12"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/004f.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Leesa Beaty</option>
                                                     <option value="13"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/007m.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Perren Keemar</option>
                                                     <option value="14"
                                                         data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34;&gt;SA&lt;/span&gt;">
                                                         Sunny Airey</option>
                                                     <option value="15"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/009m.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Geoffry Flaunders</option>
                                                     <option value="16"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/010m.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Thatcher Keel</option>
                                                     <option value="17"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/005f.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Dyann Escala</option>
                                                     <option value="18"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/006f.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Avivah Mugleston</option>
                                                     <option value="19"
                                                         data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34;&gt;AA&lt;/span&gt;">
                                                         Arlie Armstead</option>
                                                     <option value="20"
-                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url(./static/avatars/008f.jpg)&#34;&gt;&lt;/span&gt;">
+                                                        data-custom-properties="&lt;span class=&#34;avatar avatar-xs&#34; style=&#34;background-image: url({{ asset('assets/static/avatars/000m.jpg') }})&#34;&gt;&lt;/span&gt;">
                                                         Tessie Curzon</option>
                                                 </select>
                                                 <script>
@@ -2548,7 +2548,7 @@
                                         <div class="row">
                                             <div class="col-auto">
                                                 <span class="avatar avatar-md"
-                                                    style="background-image: url(./static/avatars/002m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                             </div>
                                             <div class="col">
                                                 <div class="mb-3">

@@ -37,7 +37,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/000m.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Paweł Kuna</a></h3>
                             <div class="text-secondary">UI Designer</div>
                             <div class="mt-3">
@@ -104,7 +104,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/002m.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Mallory Hulme</a></h3>
                             <div class="text-secondary">Geologist IV</div>
                             <div class="mt-3">
@@ -138,7 +138,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/003m.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Dunn Slane</a></h3>
                             <div class="text-secondary">Research Nurse</div>
                             <div class="mt-3">
@@ -172,7 +172,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/000f.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Emmy Levet</a></h3>
                             <div class="text-secondary">VP Product Management</div>
                             <div class="mt-3">
@@ -205,7 +205,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/001f.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Maryjo Lebarree</a></h3>
                             <div class="text-secondary">Civil Engineer</div>
                             <div class="mt-3">
@@ -270,7 +270,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/002f.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Kellie Skingley</a></h3>
                             <div class="text-secondary">Teacher</div>
                             <div class="mt-3">
@@ -303,7 +303,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/003f.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Christabel Charlwood</a></h3>
                             <div class="text-secondary">Tax Accountant</div>
                             <div class="mt-3">
@@ -368,7 +368,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/006m.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Lorry Mion</a></h3>
                             <div class="text-secondary">Automation Specialist IV</div>
                             <div class="mt-3">
@@ -401,7 +401,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/004f.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Leesa Beaty</a></h3>
                             <div class="text-secondary">Editor</div>
                             <div class="mt-3">
@@ -434,7 +434,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/007m.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Perren Keemar</a></h3>
                             <div class="text-secondary">Analog Circuit Design manager</div>
                             <div class="mt-3">
@@ -499,7 +499,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/009m.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Geoffry Flaunders</a></h3>
                             <div class="text-secondary">Software Test Engineer II</div>
                             <div class="mt-3">
@@ -532,7 +532,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/010m.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Thatcher Keel</a></h3>
                             <div class="text-secondary">VP Sales</div>
                             <div class="mt-3">
@@ -565,7 +565,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/005f.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Dyann Escala</a></h3>
                             <div class="text-secondary">Mechanical Systems Engineer</div>
                             <div class="mt-3">
@@ -598,7 +598,7 @@
                     <div class="card">
                         <div class="card-body p-4 text-center">
                             <span class="avatar avatar-xl mb-3 rounded"
-                                style="background-image: url(./static/avatars/006f.jpg)"></span>
+                                style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                             <h3 class="m-0 mb-1"><a href="#">Avivah Mugleston</a></h3>
                             <div class="text-secondary">Actuary</div>
                             <div class="mt-3">
@@ -662,3 +662,5 @@
         </div>
     </div>
 @endsection
+
+

@@ -48,7 +48,7 @@
                             <label class="form-label">
                                 Password
                                 <span class="form-label-description">
-                                    <a href="./forgot-password.html">I forgot password</a>
+                                    <a href="{{ route('forgot-password') }}">I forgot password</a>
                                 </span>
                             </label>
                             <div class="input-group input-group-flat">
@@ -111,7 +111,7 @@
                 </div>
             </div>
             <div class="text-center text-secondary mt-3">
-                Don't have account yet? <a href="./sign-up.html" tabindex="-1">Sign up</a>
+                Don't have account yet? <a href="{{ route('sign-up') }}" tabindex="-1">Sign up</a>
             </div>
         </div>
     </div>

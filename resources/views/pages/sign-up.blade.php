@@ -77,7 +77,7 @@
                     <div class="mb-3">
                         <label class="form-check">
                             <input type="checkbox" class="form-check-input" />
-                            <span class="form-check-label">Agree the <a href="./terms-of-service.html"
+                            <span class="form-check-label">Agree the <a href="{{ route('terms-of-service') }}"
                                     tabindex="-1">terms and policy</a>.</span>
                         </label>
                     </div>
@@ -87,7 +87,7 @@
                 </div>
             </form>
             <div class="text-center text-secondary mt-3">
-                Already have account? <a href="./sign-in.html" tabindex="-1">Sign in</a>
+                Already have account? <a href="{{ route('sign-in') }}" tabindex="-1">Sign in</a>
             </div>
         </div>
     </div>

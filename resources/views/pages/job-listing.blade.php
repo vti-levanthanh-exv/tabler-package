@@ -126,7 +126,7 @@
 								<div class="col-auto">
 									<div class="card-body">
 										<div class="avatar avatar-md"
-											style="background-image: url(./static/jobs/job-1.jpg)"></div>
+											style="background-image: url({{ asset('assets/static/jobs/job-3.png') }})"></div>
 									</div>
 								</div>
 								<div class="col">
@@ -260,7 +260,7 @@
 								<div class="col-auto">
 									<div class="card-body">
 										<div class="avatar avatar-md"
-											style="background-image: url(./static/jobs/job-2.png)"></div>
+											style="background-image: url({{ asset('assets/static/jobs/job-2.png') }})"></div>
 									</div>
 								</div>
 								<div class="col">
@@ -395,7 +395,7 @@
 								<div class="col-auto">
 									<div class="card-body">
 										<div class="avatar avatar-md"
-											style="background-image: url(./static/jobs/job-3.png)"></div>
+											style="background-image: url({{ asset('assets/static/jobs/job-2.png') }})"></div>
 									</div>
 								</div>
 								<div class="col">
@@ -533,7 +533,7 @@
 								<div class="col-auto">
 									<div class="card-body">
 										<div class="avatar avatar-md"
-											style="background-image: url(./static/jobs/job-4.png)"></div>
+											style="background-image: url({{ asset('assets/static/jobs/job-2.png') }})"></div>
 									</div>
 								</div>
 								<div class="col">
@@ -673,7 +673,7 @@
 								<div class="col-auto">
 									<div class="card-body">
 										<div class="avatar avatar-md"
-											style="background-image: url(./static/jobs/job-5.png)"></div>
+											style="background-image: url({{ asset('assets/static/jobs/job-2.png') }})"></div>
 									</div>
 								</div>
 								<div class="col">
@@ -813,7 +813,7 @@
 								<div class="col-auto">
 									<div class="card-body">
 										<div class="avatar avatar-md"
-											style="background-image: url(./static/jobs/job-6.png)"></div>
+											style="background-image: url({{ asset('assets/static/jobs/job-2.png') }})"></div>
 									</div>
 								</div>
 								<div class="col">
@@ -953,7 +953,7 @@
 								<div class="col-auto">
 									<div class="card-body">
 										<div class="avatar avatar-md"
-											style="background-image: url(./static/jobs/job-7.png)"></div>
+											style="background-image: url({{ asset('assets/static/jobs/job-2.png') }})"></div>
 									</div>
 								</div>
 								<div class="col">
@@ -1095,7 +1095,7 @@
 								<div class="col-auto">
 									<div class="card-body">
 										<div class="avatar avatar-md"
-											style="background-image: url(./static/jobs/job-8.png)"></div>
+											style="background-image: url({{ asset('assets/static/jobs/job-2.png') }})"></div>
 									</div>
 								</div>
 								<div class="col">
@@ -1235,7 +1235,7 @@
 								<div class="col-auto">
 									<div class="card-body">
 										<div class="avatar avatar-md"
-											style="background-image: url(./static/jobs/job-9.jpg)"></div>
+											style="background-image: url({{ asset('assets/static/jobs/job-3.png') }})"></div>
 									</div>
 								</div>
 								<div class="col">

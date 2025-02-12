@@ -55,7 +55,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-2 me-3 rounded"
-                                    style="background-image: url(./static/avatars/000m.jpg)"></span>
+                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                 <div>
                                     <div>Paweł Kuna</div>
                                     <div class="text-secondary">3 days ago</div>
@@ -90,7 +90,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="card card-sm">
                         <a href="#" class="d-block"><img
-                                src="./static/photos/brainstorming-session-with-creative-designers.jpg"
+                                src="{{ asset('assets/static/photos/brainstorming-session-with-creative-designers.jpg') }}"
                                 class="card-img-top"></a>
                         <div class="card-body">
                             <div class="d-flex align-items-center">
@@ -134,7 +134,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-2 me-3 rounded"
-                                    style="background-image: url(./static/avatars/002m.jpg)"></span>
+                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                 <div>
                                     <div>Mallory Hulme</div>
                                     <div class="text-secondary">now</div>
@@ -175,7 +175,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-2 me-3 rounded"
-                                    style="background-image: url(./static/avatars/003m.jpg)"></span>
+                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                 <div>
                                     <div>Dunn Slane</div>
                                     <div class="text-secondary">10 days ago</div>
@@ -216,7 +216,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-2 me-3 rounded"
-                                    style="background-image: url(./static/avatars/000f.jpg)"></span>
+                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                 <div>
                                     <div>Emmy Levet</div>
                                     <div class="text-secondary">now</div>
@@ -257,7 +257,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-2 me-3 rounded"
-                                    style="background-image: url(./static/avatars/001f.jpg)"></span>
+                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                 <div>
                                     <div>Maryjo Lebarree</div>
                                     <div class="text-secondary">3 days ago</div>
@@ -337,7 +337,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-2 me-3 rounded"
-                                    style="background-image: url(./static/avatars/002f.jpg)"></span>
+                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                 <div>
                                     <div>Kellie Skingley</div>
                                     <div class="text-secondary">9 days ago</div>
@@ -378,7 +378,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-2 me-3 rounded"
-                                    style="background-image: url(./static/avatars/003f.jpg)"></span>
+                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                 <div>
                                     <div>Christabel Charlwood</div>
                                     <div class="text-secondary">now</div>
@@ -458,7 +458,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-2 me-3 rounded"
-                                    style="background-image: url(./static/avatars/006m.jpg)"></span>
+                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                 <div>
                                     <div>Lorry Mion</div>
                                     <div class="text-secondary">5 days ago</div>
@@ -498,7 +498,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-2 me-3 rounded"
-                                    style="background-image: url(./static/avatars/004f.jpg)"></span>
+                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                 <div>
                                     <div>Leesa Beaty</div>
                                     <div class="text-secondary">now</div>
@@ -538,7 +538,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-2 me-3 rounded"
-                                    style="background-image: url(./static/avatars/007m.jpg)"></span>
+                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                 <div>
                                     <div>Perren Keemar</div>
                                     <div class="text-secondary">4 days ago</div>
@@ -616,7 +616,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-2 me-3 rounded"
-                                    style="background-image: url(./static/avatars/009m.jpg)"></span>
+                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                 <div>
                                     <div>Geoffry Flaunders</div>
                                     <div class="text-secondary">7 days ago</div>

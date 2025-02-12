@@ -29,7 +29,7 @@
                                             </div>
                                             <div class="carousel-item">
                                                 <img class="d-block w-100" alt=""
-                                                    src="./static/photos/brainstorming-session-with-creative-designers.jpg">
+                                                    src="{{ asset('assets/static/photos/brainstorming-session-with-creative-designers.jpg') }}">
                                             </div>
                                             <div class="carousel-item">
                                                 <img class="d-block w-100" alt=""
@@ -236,19 +236,19 @@
                                         <div class="carousel-indicators carousel-indicators-thumb">
                                             <button type="button" data-bs-target="#carousel-indicators-thumb"
                                                 data-bs-slide-to="0" class=" ratio ratio-4x3 active"
-                                                style="background-image: url(./static/photos/colorful-exotic-flowers-and-greenery.jpg)"></button>
+                                                style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})"></button>
                                             <button type="button" data-bs-target="#carousel-indicators-thumb"
                                                 data-bs-slide-to="1" class=" ratio ratio-4x3"
-                                                style="background-image: url(./static/photos/workplace-with-laptop-on-table-at-home.jpg)"></button>
+                                                style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})"></button>
                                             <button type="button" data-bs-target="#carousel-indicators-thumb"
                                                 data-bs-slide-to="2" class=" ratio ratio-4x3"
-                                                style="background-image: url(./static/photos/city-lights-reflected-in-the-water-at-night.jpg)"></button>
+                                                style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})"></button>
                                             <button type="button" data-bs-target="#carousel-indicators-thumb"
                                                 data-bs-slide-to="3" class=" ratio ratio-4x3"
-                                                style="background-image: url(./static/photos/cryptocurrency-bitcoin-coins.jpg)"></button>
+                                                style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})"></button>
                                             <button type="button" data-bs-target="#carousel-indicators-thumb"
                                                 data-bs-slide-to="4" class=" ratio ratio-4x3"
-                                                style="background-image: url(./static/photos/woman-read-book-and-drink-coffee-2.jpg)"></button>
+                                                style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})"></button>
                                         </div>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
@@ -336,23 +336,23 @@
                                             <button type="button"
                                                 data-bs-target="#carousel-indicators-thumb-vertical"
                                                 data-bs-slide-to="0" class=" ratio ratio-4x3 active"
-                                                style="background-image: url(./static/photos/tropical-palm-leaves-floral-pattern-background.jpg)"></button>
+                                                style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})"></button>
                                             <button type="button"
                                                 data-bs-target="#carousel-indicators-thumb-vertical"
                                                 data-bs-slide-to="1" class=" ratio ratio-4x3"
-                                                style="background-image: url(./static/photos/woman-read-book-and-drink-coffee.jpg)"></button>
+                                                style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})"></button>
                                             <button type="button"
                                                 data-bs-target="#carousel-indicators-thumb-vertical"
                                                 data-bs-slide-to="2" class=" ratio ratio-4x3"
-                                                style="background-image: url(./static/photos/book-on-the-grass.jpg)"></button>
+                                                style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})"></button>
                                             <button type="button"
                                                 data-bs-target="#carousel-indicators-thumb-vertical"
                                                 data-bs-slide-to="3" class=" ratio ratio-4x3"
-                                                style="background-image: url(./static/photos/colorful-exotic-flowers-and-greenery.jpg)"></button>
+                                                style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})"></button>
                                             <button type="button"
                                                 data-bs-target="#carousel-indicators-thumb-vertical"
                                                 data-bs-slide-to="4" class=" ratio ratio-4x3"
-                                                style="background-image: url(./static/photos/workplace-with-laptop-on-table-at-home.jpg)"></button>
+                                                style="background-image: url({{ asset('assets/static/photos/a-visit-to-the-bookstore.jpg') }})"></button>
                                         </div>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">

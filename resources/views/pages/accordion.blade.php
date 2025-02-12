@@ -2087,7 +2087,7 @@
                     data-bs-autohide="false">
                     <div class="toast-header">
                         <span class="avatar avatar-xs me-2"
-                            style="background-image: url(./static/avatars/002m.jpg)"></span>
+                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                         <strong class="me-auto">Mallory Hulme</strong>
                         <small>11 mins ago</small>
                         <button type="button" class="ms-2 btn-close" data-bs-dismiss="toast"
@@ -2101,7 +2101,7 @@
                     data-bs-autohide="false">
                     <div class="toast-header">
                         <span class="avatar avatar-xs me-2"
-                            style="background-image: url(./static/avatars/002m.jpg)"></span>
+                            style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                         <strong class="me-auto">Mallory Hulme</strong>
                         <small>11 mins ago</small>
                         <button type="button" class="ms-2 btn-close" data-bs-dismiss="toast"
@@ -2429,7 +2429,7 @@
                             <div class="tags-list">
                                 <span class="tag">
                                     <span class="avatar avatar-xxs tag-avatar"
-                                        style="background-image: url(./static/avatars/000m.jpg)"></span>
+                                        style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                     Paweł Kuna
                                     <a href="#" class="btn-close"></a>
                                 </span>
@@ -2440,25 +2440,25 @@
                                 </span>
                                 <span class="tag">
                                     <span class="avatar avatar-xxs tag-avatar"
-                                        style="background-image: url(./static/avatars/002m.jpg)"></span>
+                                        style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                     Mallory Hulme
                                     <a href="#" class="btn-close"></a>
                                 </span>
                                 <span class="tag">
                                     <span class="avatar avatar-xxs tag-avatar"
-                                        style="background-image: url(./static/avatars/003m.jpg)"></span>
+                                        style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                     Dunn Slane
                                     <a href="#" class="btn-close"></a>
                                 </span>
                                 <span class="tag">
                                     <span class="avatar avatar-xxs tag-avatar"
-                                        style="background-image: url(./static/avatars/000f.jpg)"></span>
+                                        style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                     Emmy Levet
                                     <a href="#" class="btn-close"></a>
                                 </span>
                                 <span class="tag">
                                     <span class="avatar avatar-xxs tag-avatar"
-                                        style="background-image: url(./static/avatars/001f.jpg)"></span>
+                                        style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                     Maryjo Lebarree
                                     <a href="#" class="btn-close"></a>
                                 </span>
@@ -2469,7 +2469,7 @@
                                 </span>
                                 <span class="tag">
                                     <span class="avatar avatar-xxs tag-avatar"
-                                        style="background-image: url(./static/avatars/002f.jpg)"></span>
+                                        style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                     Kellie Skingley
                                     <a href="#" class="btn-close"></a>
                                 </span>

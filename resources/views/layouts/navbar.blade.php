@@ -1,3 +1,5 @@
+{{-- <div class="sticky-top">
+    <header class="navbar navbar-expand-md sticky-top d-print-none"> --}}
 <header class="navbar navbar-expand-md d-print-none">
     <div class="container-xl">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu"
@@ -20,7 +22,7 @@
         <div class="navbar-nav flex-row order-md-last">
             <div class="nav-item d-none d-md-flex me-3">
                 <div class="btn-list">
-                    <a href="https://github.com/tabler/tabler" class="btn btn-5" target="_blank" rel="noreferrer">
+                    <a href="#" class="btn btn-5" target="_blank" rel="noreferrer">
                         <!-- Download SVG icon from http://tabler.io/icons/icon/brand-github -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -30,7 +32,7 @@
                         </svg>
                         Source code
                     </a>
-                    <a href="https://github.com/sponsors/codecalm" class="btn btn-6" target="_blank" rel="noreferrer">
+                    <a href="#" class="btn btn-6" target="_blank" rel="noreferrer">
                         <!-- Download SVG icon from http://tabler.io/icons/icon/heart -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -185,7 +187,8 @@
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown"
                     aria-label="Open user menu">
-                    <span class="avatar avatar-sm" style="background-image: url(./static/avatars/000m.jpg)"></span>
+                    <span class="avatar avatar-sm"
+                        style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                     <div class="d-none d-xl-block ps-2">
                         <div>Paweł Kuna</div>
                         <div class="mt-1 small text-secondary">UI Designer</div>
@@ -193,11 +196,11 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
                     <a href="#" class="dropdown-item">Status</a>
-                    <a href="./profile.html" class="dropdown-item">Profile</a>
+                    <a href="#" class="dropdown-item">Profile</a>
                     <a href="#" class="dropdown-item">Feedback</a>
                     <div class="dropdown-divider"></div>
-                    <a href="./settings.html" class="dropdown-item">Settings</a>
-                    <a href="./sign-in.html" class="dropdown-item">Logout</a>
+                    <a href="{{ route('settings') }}" class="dropdown-item">Settings</a>
+                    <a href="{{ route('sign-in') }}" class="dropdown-item">Logout</a>
                 </div>
             </div>
         </div>
@@ -251,10 +254,10 @@
                                 <div class="dropdown-menu">
                                     <div class="dropdown-menu-columns">
                                         <div class="dropdown-menu-column">
-                                            <a class="dropdown-item" href="./accordion.html">
+                                            <a class="dropdown-item" href="{{ route('accordion') }}">
                                                 Accordion
                                             </a>
-                                            <a class="dropdown-item" href="./alerts.html">
+                                            <a class="dropdown-item" href="#">
                                                 Alerts
                                             </a>
                                             <div class="dropend">
@@ -265,47 +268,47 @@
                                                     Authentication
                                                 </a>
                                                 <div class="dropdown-menu">
-                                                    <a href="./sign-in.html" class="dropdown-item">
+                                                    <a href="{{ route('sign-in') }}" class="dropdown-item">
                                                         Sign in
                                                     </a>
-                                                    <a href="./sign-in-link.html" class="dropdown-item">
+                                                    <a href="{{ route('sign-in-link') }}" class="dropdown-item">
                                                         Sign in link
                                                     </a>
-                                                    <a href="./sign-in-illustration.html" class="dropdown-item">
+                                                    <a href="{{ route('sign-in-illustration') }}" class="dropdown-item">
                                                         Sign in with illustration
                                                     </a>
-                                                    <a href="./sign-in-cover.html" class="dropdown-item">
+                                                    <a href="{{ route('sign-in-cover') }}" class="dropdown-item">
                                                         Sign in with cover
                                                     </a>
-                                                    <a href="./sign-up.html" class="dropdown-item">
+                                                    <a href="{{ route('sign-up') }}" class="dropdown-item">
                                                         Sign up
                                                     </a>
-                                                    <a href="./forgot-password.html" class="dropdown-item">
+                                                    <a href="{{ route('forgot-password') }}" class="dropdown-item">
                                                         Forgot password
                                                     </a>
-                                                    <a href="./terms-of-service.html" class="dropdown-item">
+                                                    <a href="{{ route('terms-of-service') }}" class="dropdown-item">
                                                         Terms of service
                                                     </a>
-                                                    <a href="./auth-lock.html" class="dropdown-item">
+                                                    <a href="{{ route('auth-lock') }}" class="dropdown-item">
                                                         Lock screen
                                                     </a>
-                                                    <a href="./2-step-verification.html" class="dropdown-item">
+                                                    <a href="#" class="dropdown-item">
                                                         2 step verification
                                                     </a>
-                                                    <a href="./2-step-verification-code.html" class="dropdown-item">
+                                                    <a href="#" class="dropdown-item">
                                                         2 step verification code
                                                     </a>
                                                 </div>
                                             </div>
-                                            <a class="dropdown-item" href="./badges.html">
+                                            <a class="dropdown-item" href="#">
                                                 Badges
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./blank.html">
+                                            <a class="dropdown-item" href="{{ route('blank') }}">
                                                 Blank page
                                             </a>
-                                            <a class="dropdown-item" href="./buttons.html">
+                                            <a class="dropdown-item" href="#">
                                                 Buttons
                                             </a>
                                             <div class="dropend">
@@ -317,49 +320,49 @@
                                                         class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                                 </a>
                                                 <div class="dropdown-menu">
-                                                    <a href="./cards.html" class="dropdown-item">
+                                                    <a href="{{ route('cards') }}" class="dropdown-item">
                                                         Sample cards
                                                     </a>
-                                                    <a href="./card-actions.html" class="dropdown-item">
+                                                    <a href="#" class="dropdown-item">
                                                         Card actions
                                                         <span
                                                             class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                                     </a>
-                                                    <a href="./cards-masonry.html" class="dropdown-item">
+                                                    <a href="#" class="dropdown-item">
                                                         Cards Masonry
                                                     </a>
                                                 </div>
                                             </div>
-                                            <a class="dropdown-item" href="./carousel.html">
+                                            <a class="dropdown-item" href="{{ route('carousel') }}">
                                                 Carousel
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./charts.html">
+                                            <a class="dropdown-item" href="{{ route('charts') }}">
                                                 Charts
                                             </a>
-                                            <a class="dropdown-item" href="./colorpicker.html">
+                                            <a class="dropdown-item" href="{{ route('colorpicker') }}">
                                                 Color picker
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./colors.html">
+                                            <a class="dropdown-item" href="#">
                                                 Colors
                                             </a>
-                                            <a class="dropdown-item" href="./datagrid.html">
+                                            <a class="dropdown-item" href="#">
                                                 Data grid
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./datatables.html">
+                                            <a class="dropdown-item" href="{{ route('datatables') }}">
                                                 Datatables
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./dropdowns.html">
+                                            <a class="dropdown-item" href="#">
                                                 Dropdowns
                                             </a>
-                                            <a class="dropdown-item" href="./dropzone.html">
+                                            <a class="dropdown-item" href="{{ route('dropzone') }}">
                                                 Dropzone
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
@@ -371,99 +374,99 @@
                                                     Error pages
                                                 </a>
                                                 <div class="dropdown-menu">
-                                                    <a href="./error-404.html" class="dropdown-item">
+                                                    <a href="{{ route('error-404') }}" class="dropdown-item">
                                                         404 page
                                                     </a>
-                                                    <a href="./error-500.html" class="dropdown-item">
+                                                    <a href="{{ route('error-500') }}" class="dropdown-item">
                                                         500 page
                                                     </a>
-                                                    <a href="./error-maintenance.html" class="dropdown-item">
+                                                    <a href="{{ route('error-maintenance') }}" class="dropdown-item">
                                                         Maintenance page
                                                     </a>
                                                 </div>
                                             </div>
-                                            <a class="dropdown-item" href="./flags.html">
+                                            <a class="dropdown-item" href="{{ route('flags') }}">
                                                 Flags
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./inline-player.html">
+                                            <a class="dropdown-item" href="{{ route('inline-player') }}">
                                                 Inline player
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./lightbox.html">
+                                            <a class="dropdown-item" href="{{ route('lightbox') }}">
                                                 Lightbox
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
                                         </div>
                                         <div class="dropdown-menu-column">
-                                            <a class="dropdown-item" href="./lists.html">
+                                            <a class="dropdown-item" href="{{ route('lists') }}">
                                                 Lists
                                             </a>
-                                            <a class="dropdown-item" href="./modals.html">
+                                            <a class="dropdown-item" href="{{ route('modals') }}">
                                                 Modal
                                             </a>
-                                            <a class="dropdown-item" href="./maps.html">
+                                            <a class="dropdown-item" href="#">
                                                 Map
                                             </a>
-                                            <a class="dropdown-item" href="./map-fullsize.html">
+                                            <a class="dropdown-item" href="#">
                                                 Map fullsize
                                             </a>
-                                            <a class="dropdown-item" href="./maps-vector.html">
+                                            <a class="dropdown-item" href="#">
                                                 Map vector
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./markdown.html">
+                                            <a class="dropdown-item" href="{{ route('markdown') }}">
                                                 Markdown
                                             </a>
-                                            <a class="dropdown-item" href="./navigation.html">
+                                            <a class="dropdown-item" href="#">
                                                 Navigation
                                             </a>
-                                            <a class="dropdown-item" href="./offcanvas.html">
+                                            <a class="dropdown-item" href="{{ route('offcanvas') }}">
                                                 Offcanvas
                                             </a>
-                                            <a class="dropdown-item" href="./pagination.html">
+                                            <a class="dropdown-item" href="#">
                                                 Pagination
                                             </a>
-                                            <a class="dropdown-item" href="./placeholder.html">
+                                            <a class="dropdown-item" href="{{ route('placeholder') }}">
                                                 Placeholder
                                             </a>
-                                            <a class="dropdown-item" href="./social-icons.html">
+                                            <a class="dropdown-item" href="{{ route('social-icons') }}">
                                                 Social icons
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./stars-rating.html">
+                                            <a class="dropdown-item" href="#">
                                                 Stars rating
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./steps.html">
+                                            <a class="dropdown-item" href="{{ route('steps') }}">
                                                 Steps
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./tables.html">
+                                            <a class="dropdown-item" href="{{ route('tables') }}">
                                                 Tables
                                             </a>
-                                            <a class="dropdown-item" href="./tabs.html">
+                                            <a class="dropdown-item" href="#">
                                                 Tabs
                                             </a>
-                                            <a class="dropdown-item" href="./tags.html">
+                                            <a class="dropdown-item" href="#">
                                                 Tags
                                             </a>
-                                            <a class="dropdown-item" href="./tinymce.html">
+                                            <a class="dropdown-item" href="#">
                                                 TinyMCE
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./toasts.html">
+                                            <a class="dropdown-item" href="#">
                                                 Toasts
                                             </a>
-                                            <a class="dropdown-item" href="./typography.html">
+                                            <a class="dropdown-item" href="#">
                                                 Typography
                                             </a>
                                         </div>
@@ -471,7 +474,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./form-elements.html">
+                                <a class="nav-link" href="{{ route('form-elements') }}">
                                     <span class="nav-link-icon d-md-none d-lg-inline-block">
                                         <!-- Download SVG icon from http://tabler.io/icons/icon/checkbox -->
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -508,105 +511,105 @@
                                 <div class="dropdown-menu">
                                     <div class="dropdown-menu-columns">
                                         <div class="dropdown-menu-column">
-                                            <a class="dropdown-item" href="./activity.html">
+                                            <a class="dropdown-item" href="{{ route('activity') }}">
                                                 Activity
                                             </a>
-                                            <a class="dropdown-item" href="./chat.html">
+                                            <a class="dropdown-item" href="{{ route('chat') }}">
                                                 Chat
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./cookie-banner.html">
+                                            <a class="dropdown-item" href="{{ route('cookie-banner') }}">
                                                 Cookie banner
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./empty.html">
+                                            <a class="dropdown-item" href="#">
                                                 Empty page
                                             </a>
-                                            <a class="dropdown-item" href="./faq.html">
+                                            <a class="dropdown-item" href="{{ route('faq') }}">
                                                 FAQ
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./gallery.html">
+                                            <a class="dropdown-item" href="{{ route('gallery') }}">
                                                 Gallery
                                             </a>
-                                            <a class="dropdown-item" href="./invoice.html">
+                                            <a class="dropdown-item" href="{{ route('invoice') }}">
                                                 Invoice
                                             </a>
-                                            <a class="dropdown-item" href="./job-listing.html">
+                                            <a class="dropdown-item" href="{{ route('job-listing') }}">
                                                 Job listing
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./license.html">
+                                            <a class="dropdown-item" href="{{ route('license') }}">
                                                 License
                                             </a>
-                                            <a class="dropdown-item" href="./logs.html">
+                                            <a class="dropdown-item" href="{{ route('logs') }}">
                                                 Logs
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./marketing/index.html">
+                                            <a class="dropdown-item" href="#">
                                                 Marketing
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./music.html">
+                                            <a class="dropdown-item" href="#">
                                                 Music
                                             </a>
-                                            <a class="dropdown-item" href="./page-loader.html">
+                                            <a class="dropdown-item" href="{{ route('page-loader') }}">
                                                 Page loader
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
                                         </div>
                                         <div class="dropdown-menu-column">
-                                            <a class="dropdown-item" href="./payment-providers.html">
+                                            <a class="dropdown-item" href="{{ route('payment-providers') }}">
                                                 Payment providers
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./photogrid.html">
+                                            <a class="dropdown-item" href="{{ route('photogrid') }}">
                                                 Photogrid
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./pricing.html">
+                                            <a class="dropdown-item" href="{{ route('pricing') }}">
                                                 Pricing cards
                                             </a>
-                                            <a class="dropdown-item" href="./pricing-table.html">
+                                            <a class="dropdown-item" href="{{ route('pricing-table') }}">
                                                 Pricing table
                                             </a>
-                                            <a class="dropdown-item" href="./search-results.html">
+                                            <a class="dropdown-item" href="{{ route('search-results') }}">
                                                 Search results
                                             </a>
-                                            <a class="dropdown-item" href="./settings.html">
+                                            <a class="dropdown-item" href="{{ route('settings') }}">
                                                 Settings
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./tasks.html">
+                                            <a class="dropdown-item" href="{{ route('tasks') }}">
                                                 Tasks
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./trial-ended.html">
+                                            <a class="dropdown-item" href="{{ route('trial-ended') }}">
                                                 Trial ended
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./uptime.html">
+                                            <a class="dropdown-item" href="#">
                                                 Uptime monitor
                                             </a>
-                                            <a class="dropdown-item" href="./users.html">
+                                            <a class="dropdown-item" href="{{ route('users') }}">
                                                 Users
                                             </a>
-                                            <a class="dropdown-item" href="./widgets.html">
+                                            <a class="dropdown-item" href="#">
                                                 Widgets
                                             </a>
-                                            <a class="dropdown-item" href="./wizard.html">
+                                            <a class="dropdown-item" href="#">
                                                 Wizard
                                             </a>
                                         </div>
@@ -639,47 +642,47 @@
                                 <div class="dropdown-menu">
                                     <div class="dropdown-menu-columns">
                                         <div class="dropdown-menu-column">
-                                            <a class="dropdown-item" href="./layout-boxed.html">
+                                            <a class="dropdown-item" href="#">
                                                 Boxed
                                                 <span
                                                     class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                             </a>
-                                            <a class="dropdown-item" href="./layout-combo.html">
+                                            <a class="dropdown-item" href="#">
                                                 Combined
                                             </a>
-                                            <a class="dropdown-item" href="./layout-condensed.html">
+                                            <a class="dropdown-item" href="#">
                                                 Condensed
                                             </a>
-                                            <a class="dropdown-item" href="./layout-fluid.html">
+                                            <a class="dropdown-item" href="#">
                                                 Fluid
                                             </a>
-                                            <a class="dropdown-item" href="./layout-fluid-vertical.html">
+                                            <a class="dropdown-item" href="#">
                                                 Fluid vertical
                                             </a>
-                                            <a class="dropdown-item" href="./layout-horizontal.html">
+                                            <a class="dropdown-item" href="#">
                                                 Horizontal
                                             </a>
-                                            <a class="dropdown-item" href="./layout-navbar-dark.html">
+                                            <a class="dropdown-item" href="#">
                                                 Navbar dark
                                             </a>
                                         </div>
                                         <div class="dropdown-menu-column">
-                                            <a class="dropdown-item" href="./layout-navbar-overlap.html">
+                                            <a class="dropdown-item" href="#">
                                                 Navbar overlap
                                             </a>
-                                            <a class="dropdown-item" href="./layout-navbar-sticky.html">
+                                            <a class="dropdown-item" href="#">
                                                 Navbar sticky
                                             </a>
-                                            <a class="dropdown-item" href="./layout-vertical-right.html">
+                                            <a class="dropdown-item" href="#">
                                                 Right vertical
                                             </a>
-                                            <a class="dropdown-item" href="./layout-rtl.html">
+                                            <a class="dropdown-item" href="#">
                                                 RTL mode
                                             </a>
-                                            <a class="dropdown-item" href="./layout-vertical.html">
+                                            <a class="dropdown-item" href="#">
                                                 Vertical
                                             </a>
-                                            <a class="dropdown-item" href="./layout-vertical-transparent.html">
+                                            <a class="dropdown-item" href="#">
                                                 Vertical transparent
                                             </a>
                                         </div>
@@ -687,7 +690,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./icons.html">
+                                <a class="nav-link" href="#">
                                     <span class="nav-link-icon d-md-none d-lg-inline-block">
                                         <!-- Download SVG icon from http://tabler.io/icons/icon/ghost -->
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -707,7 +710,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./emails.html">
+                                <a class="nav-link" href="#">
                                     <span class="nav-link-icon d-md-none d-lg-inline-block">
                                         <!-- Download SVG icon from http://tabler.io/icons/icon/mail-opened -->
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -726,7 +729,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./illustrations.html">
+                                <a class="nav-link" href="#">
                                     <span class="nav-link-icon d-md-none d-lg-inline-block">
                                         <!-- Download SVG icon from http://tabler.io/icons/icon/brand-figma -->
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -770,7 +773,7 @@
                                         rel="noopener">
                                         Documentation
                                     </a>
-                                    <a class="dropdown-item" href="./changelog.html">
+                                    <a class="dropdown-item" href="{{ route('changelog') }}">
                                         Changelog
                                     </a>
                                     <a class="dropdown-item" href="https://github.com/tabler/tabler" target="_blank"
@@ -818,3 +821,4 @@
         </div>
     </div>
 </header>
+{{-- div  --}}

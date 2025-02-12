@@ -391,7 +391,7 @@
                                         <td>
                                             <div class="d-flex py-1 align-items-center">
                                                 <span class="avatar avatar-2 me-2"
-                                                    style="background-image: url(./static/avatars/006m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                 <div class="flex-fill">
                                                     <div class="font-weight-medium">Lorry Mion</div>
                                                     <div class="text-secondary"><a href="#"
@@ -414,7 +414,7 @@
                                         <td>
                                             <div class="d-flex py-1 align-items-center">
                                                 <span class="avatar avatar-2 me-2"
-                                                    style="background-image: url(./static/avatars/004f.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                 <div class="flex-fill">
                                                     <div class="font-weight-medium">Leesa Beaty</div>
                                                     <div class="text-secondary"><a href="#"
@@ -437,7 +437,7 @@
                                         <td>
                                             <div class="d-flex py-1 align-items-center">
                                                 <span class="avatar avatar-2 me-2"
-                                                    style="background-image: url(./static/avatars/007m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                 <div class="flex-fill">
                                                     <div class="font-weight-medium">Perren Keemar</div>
                                                     <div class="text-secondary"><a href="#"
@@ -482,7 +482,7 @@
                                         <td>
                                             <div class="d-flex py-1 align-items-center">
                                                 <span class="avatar avatar-2 me-2"
-                                                    style="background-image: url(./static/avatars/009m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                 <div class="flex-fill">
                                                     <div class="font-weight-medium">Geoffry Flaunders</div>
                                                     <div class="text-secondary"><a href="#"
@@ -523,7 +523,7 @@
                                         <td data-label="Name">
                                             <div class="d-flex py-1 align-items-center">
                                                 <span class="avatar avatar-2 me-2"
-                                                    style="background-image: url(./static/avatars/010m.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                 <div class="flex-fill">
                                                     <div class="font-weight-medium">Thatcher Keel</div>
                                                     <div class="text-secondary"><a href="#"
@@ -564,7 +564,7 @@
                                         <td data-label="Name">
                                             <div class="d-flex py-1 align-items-center">
                                                 <span class="avatar avatar-2 me-2"
-                                                    style="background-image: url(./static/avatars/005f.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                 <div class="flex-fill">
                                                     <div class="font-weight-medium">Dyann Escala</div>
                                                     <div class="text-secondary"><a href="#"
@@ -605,7 +605,7 @@
                                         <td data-label="Name">
                                             <div class="d-flex py-1 align-items-center">
                                                 <span class="avatar avatar-2 me-2"
-                                                    style="background-image: url(./static/avatars/006f.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                 <div class="flex-fill">
                                                     <div class="font-weight-medium">Avivah Mugleston</div>
                                                     <div class="text-secondary"><a href="#"
@@ -687,7 +687,7 @@
                                         <td data-label="Name">
                                             <div class="d-flex py-1 align-items-center">
                                                 <span class="avatar avatar-2 me-2"
-                                                    style="background-image: url(./static/avatars/008f.jpg)"></span>
+                                                    style="background-image: url({{ asset('assets/static/avatars/000m.jpg') }})"></span>
                                                 <div class="flex-fill">
                                                     <div class="font-weight-medium">Tessie Curzon</div>
                                                     <div class="text-secondary"><a href="#"
